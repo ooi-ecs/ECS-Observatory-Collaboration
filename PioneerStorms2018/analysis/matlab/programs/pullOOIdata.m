@@ -1,8 +1,12 @@
+%Code to use matlab OOI M2M codes to pull specific data stream information for time period of interest and output to .mat file
+%created by johna rudzin, april 2020
 
+
+%%%%CHANGE ALL OF THIS INFORMATION BELOW FOR YOUR SPECIFIC USAGE%%%%%%%%
 
 %.. set login and URL details
-username = 'OOIAPI-G2GBHHAQHYQTLM';  %api_key
-password = 'BSDYYV4S1W5JD4';    %api_token
+username = '';  %api_key - input your personal api-key here
+password = '';    %api_token - input your personal api-token here
 % Set Authorization header field in weboptions
 options = weboptions('CertificateFilename','','HeaderFields',{'Authorization',...
     ['Basic ' matlab.net.base64encode([username ':' password])]}, 'Timeout', 120);
@@ -16,7 +20,7 @@ platform_name = 'CP01CNSM';
 node = 'MFN';
 instrument_class = 'ADCP';
 method = 'RecoveredInst';
-
+%%%%CHANGE ALL OF THIS INFORMATION ABOVE FOR YOUR SPECIFIC USAGE%%%%%%%%
 
 %Get M2M URL
 [uframe_dataset_name,variables] = M2M_URLs(platform_name,node,instrument_class,method);
@@ -30,7 +34,7 @@ uframe_dataset_name
 [outvariables, outtime, netcdfFilenames] = M2M_Data(variables, nclist);  %This will use the opendap to read in the data from remote files
 
 %Create .mat file
-fout=['/ftp/receive/rudzin/OOIdata/instruments/matlab/matfiles/' platform_name '_' instrument_class '_' start_date(1:10) '_' end_date(1:10) '_RI.mat'];
+fout=['/matlab/matfiles/' platform_name '_' instrument_class '_' start_date(1:10) '_' end_date(1:10) '.mat'];
 
 save(fout,'outvariables','outtime')
 
