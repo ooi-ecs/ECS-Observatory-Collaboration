@@ -1,4 +1,5 @@
-
+%Plots panels of meteorology variables from METBK packages on surface buoys from OOI
+%
 %Choice below to read in from NETCDF file (pulled from OOI data portal) or
 %from .mat file created from OOI M2M matlab codes
 
