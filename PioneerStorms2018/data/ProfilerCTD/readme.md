@@ -11,9 +11,17 @@ Formatted .csv files of temperature and salinity from the 7 profiler mooring sit
 - CP03ISPM: Inshore Profiler Mooring
 - CP04OSPM: Offshore Profiler mooring
 
-Code for data requests and formatting can be found in the `ProfilerCTD_RequestsAndAnalysis.ipynb` notebook in the analysis directory for this project.
+Code for data requests and formatting can be found in the `ProfilerCTD_RequestsAndAnalysis.ipynb` notebook in the analysis directory for this project. In addition to the site code as stated above, all data were acquired via the m2m API using the following parameters:
 
-csv Header:
+```python
+node = 'WFP01'
+instrument= '03-CTDPFK000'
+method = 'telemetered'
+stream = 'ctdpf_ckl_wfp_instrument'
+time='?beginDT=2018-11-12T00:00:00.000Z&endDT=2018-12-06T00:00:00.000Z' 
+```
+
+Header information for csv files:
 
 | Time | Practical Salinity (PSS-78) | Seawater Conductivity | Seawater Pressure (mbar) | Seawater Temperature (°C) | Depth (m) |
 |----|----|----|----|----|----|
