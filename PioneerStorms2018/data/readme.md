@@ -6,4 +6,7 @@ Location for L1+ OOI data. Please be sure to include the following metadata with
 - Instrument class
 - Method
 - Stream
-- Time range of dataset 
+- Time range of dataset
+
+### *ProfilerCTD*
+Temperature and salinity data from profiler CTDs. See directory readme file for more information.
