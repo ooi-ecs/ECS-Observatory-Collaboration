@@ -1,5 +1,7 @@
 # ProfilerCTD
 
+### 'Site'\_ctd.csv
+
 Formatted .csv files of temperature and salinity from the 7 profiler mooring sites. Names are site codes as used by [OOI Data Portal](https://ooinet.oceanobservatories.org/):
 - CP01CNPM: Central Profiler Mooring
 - CP02PMCI: Central Inshore Profiler Mooring
@@ -13,6 +15,14 @@ Code for data requests and formatting can be found in the `ProfilerCTD_RequestsA
 
 csv Header:
 
-| Time | Practical Salinity | Seawater Conductivity | Seawater Pressure | Seawater Temperature | Depth (m) |
+| Time | Practical Salinity (PSS-78) | Seawater Conductivity | Seawater Pressure (mbar) | Seawater Temperature (°C) | Depth (m) |
 |----|----|----|----|----|----|
 |`time`|`practical_salinity`|`ctdpf_ckl_seawater_conductivity`|`ctdpf_ckl_seawater_pressure`|	`ctdpf_ckl_seawater_temperature`|`depth`|
+
+### woaDecadalAverage.csv
+
+.csv form of the data contained within the `woa18_TSDO_CP02MCO.tar.gz` file in the data directory.
+
+| Depth (m) | Seawater Temperature (°C) | Practical Salinity (PSS-78) | Dissolved Oxygen (umol/kg) |
+|----|----|----|----|
+|`depth`|`temp`|`salinity`|`oxygen`|
