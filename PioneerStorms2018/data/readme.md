@@ -1,12 +1,45 @@
-# Pioneer Storms 2018 - Data
+# PioneerStorms2018 - Data
 
-Location for L1+ OOI data. Please be sure to include the following metadata with each dataset:
-- Site/Platform ID
-- Node ID
-- Instrument class
-- Method
-- Stream
-- Time range of dataset
+### *Mat Files*
+- MetBK package (Figure 3)
+- ADCP data from two mooring sites used for original exploratory analysis, not included in final manuscript.
 
 ### *ProfilerCTD*
-Temperature and salinity data from profiler CTDs. See directory readme file for more information.
+
+**'Site'\_ctd.csv**: Formatted .csv files of temperature and salinity from the 7 profiler mooring sites. Names are site codes as used by [OOI Data Portal](https://ooinet.oceanobservatories.org/):
+- CP01CNPM: Central Profiler Mooring
+- CP02PMCI: Central Inshore Profiler Mooring
+- CP02PMCO: Central Offshore Profiler Mooring
+- CP02PMUI: Upstream Inshore Profiler Mooring
+- CP02PMUO: Upstream  Offshore Profiler Mooring
+- CP03ISPM: Inshore Profiler Mooring
+- CP04OSPM: Offshore Profiler mooring
+
+Code for data requests and formatting can be found in the `ProfilerCTD_RequestsAndAnalysis.ipynb` notebook in the analysis directory for this project. In addition to the site code as stated above, all data were acquired via the m2m API using the following parameters:
+
+```python
+node = 'WFP01'
+instrument= '03-CTDPFK000'
+method = 'telemetered'
+stream = 'ctdpf_ckl_wfp_instrument'
+time='?beginDT=2018-11-12T00:00:00.000Z&endDT=2018-12-06T00:00:00.000Z'
+```
+
+Header information for csv files:
+
+| Time | Practical Salinity (PSS-78) | Seawater Conductivity | Seawater Pressure (mbar) | Seawater Temperature (°C) | Depth (m) |
+|----|----|----|----|----|----|
+|`time`|`practical_salinity`|`ctdpf_ckl_seawater_conductivity`|`ctdpf_ckl_seawater_pressure`|	`ctdpf_ckl_seawater_temperature`|`depth`|
+
+**woaDecadalAverage.csv**: .csv form of the data contained within the `woa18_TSDO_CP02MCO.tar.gz` file in the data directory.
+
+| Depth (m) | Seawater Temperature (°C) | Practical Salinity (PSS-78) | Dissolved Oxygen (umol/kg) |
+|----|----|----|----|
+|`depth`|`temp`|`salinity`|`oxygen`|
+
+
+### Original Data Sources
+Three publicly available datasets were used for the case study.
+- Data for the OOI Pioneer Array can be accessed via the OOI Data Portal (first accessed 10 March 2020, https://ooinet.oceanobservatories.org/data_access/#CP).
+- World Ocean Atlas 18 climatology is available via the National Oceanographic and Atmospheric Administration National Centers for Environmental Information (first accessed 27 April 2020, https://www.nodc.noaa.gov/OC5/woa18/woa18data.html).
+- Satellite-derived sea surface temperature can be accessed via Jet Propulsion Laboratory’s PODAAC Group for High Resolution SSTs (GHRSST) Level 4 MUR (first accessed 27 April 2020, https://podaac.jpl.nasa.gov/dataset/MUR-JPL-L4-GLOB-v4.1).

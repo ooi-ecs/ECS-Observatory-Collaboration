@@ -3,12 +3,13 @@
 
 The notebooks within this directory serve as an introduction to data acquisition and analysis of OOI data through the use of [Jupyter Notebooks](https://jupyter.org/) using [Python 3.6.7](https://www.mathworks.com/products/matlab.html). At the completion of the analysis phase of the project, this repository will host the final code used for data analysis and figure production for any scientific articles produced, as well as examples of parallel analyses in both [R](https://www.r-project.org/) and [MATLAB](https://www.mathworks.com/products/matlab.html) languages.
 
+## PioneerStorms2018
+This directory contains all of the necessary analyses and materials for Levine et al., 2020, "*Open data, collaborative working platforms, and interdisciplinary collaboration: building an early career scientist community of practice to leverage Ocean Observatories Initiative data to address critical questions in marine science*" currently under review.
 
-## Notebooks and Code
+### Additional Examples for Accessing and Analyzing OOI data
 
 #### dataAccess
 This notebook walks through searching for instrumentation and datasets at the OOI Coastal Endurance sites.
-
 
 #### Future Code/Examples
 - Abbreviated script or version of this `dataAccess` notebook that will pull cabled array data from a new centralized server.
