@@ -9,6 +9,16 @@ Data included in the analyses and figures presented. See **data** folder for add
 ## Analysis
 Python and Matlab materials for data analysis and figure production. See **analysis** folder for additional documentation on included files.
 
+`ProfilerCTD_RequestsAndAnalysis.ipynb` in the analysis directory contains the necessary Python code for data acquisition, analysis, and creation of **Figure 6** and **Figure 7**
+- **Figure 6**
+  - Datasets: 
+    - CTD Data: `CP02PMCO_ctd.csv`
+    - Oxygen Data: `CP02PMCO_DO.csv`
+    - Flourometer Data: `CP02PMCO_flor.csv`
+    - WOA-18: `woaDecadalAverage.csv`
+   - Analysis:
+      - `ProfilerCTD_RequestsAndAnalysis.ipynb`, subsections titled:*Storm Profiles - Figure 6*
+- **Figure 7**
 
 ### Additional Examples for Accessing and Analyzing OOI data
 
