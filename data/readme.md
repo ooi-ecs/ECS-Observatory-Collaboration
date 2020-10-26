@@ -1,7 +1,7 @@
 # PioneerStorms2018 - Data
 
 ### *Mat Files*
-The data from file  and  was acquired from the site CP01CNSM using the following parameters: 
+The data from file deployment0010_CP01CNSM-SBD11-06-METBKA000-recovered_host-metbk_a_dcl_instrument_recovered_20181112T000012.513000-20181205T235959.678000.nc and  was acquired from the site CP01CNSM using the following parameters: 
 
 ```python
 node = 'SBD11'
