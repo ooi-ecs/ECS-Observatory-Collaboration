@@ -1,10 +1,14 @@
-# InterdisciplinaryEvaluation
-### An open source project to provide the geosciences community with an example of the interdisciplinary potential of the [Ocean Observatories Initiative](https://oceanobservatories.org/).
+# ECS Observatory Collaboration
+## An open source project to provide the geosciences community with an example of the interdisciplinary potential of the [Ocean Observatories Initiative](https://oceanobservatories.org/).
 
-The notebooks within this directory serve as an introduction to data acquisition and analysis of OOI data through the use of [Jupyter Notebooks](https://jupyter.org/) using [Python 3.6.7](https://www.mathworks.com/products/matlab.html). At the completion of the analysis phase of the project, this repository will host the final code used for data analysis and figure production for any scientific articles produced, as well as examples of parallel analyses in both [R](https://www.r-project.org/) and [MATLAB](https://www.mathworks.com/products/matlab.html) languages.
+This repository contains all of the necessary analyses and materials for Levine et al., 2020, "*Open data, collaborative working platforms, and interdisciplinary collaboration: building an early career scientist community of practice to leverage Ocean Observatories Initiative data to address critical questions in marine science*" currently under review. Code and data included are for investigation into air-sea interactions and water column impacts of Winter Storm Avery on the New England shelf break and subsequent surface cooling events. The notebooks, code, and data within this directory serve as an introduction to data acquisition and analysis of OOI data through the use of both [Python via Jupyter Notebooks](https://jupyter.org/) and [MATLAB](https://www.mathworks.com/products/matlab.html).
 
-## PioneerStorms2018
-This directory contains all of the necessary analyses and materials for Levine et al., 2020, "*Open data, collaborative working platforms, and interdisciplinary collaboration: building an early career scientist community of practice to leverage Ocean Observatories Initiative data to address critical questions in marine science*" currently under review.
+## Data
+Data included in the analyses and figures presented. See **data** folder for additional documentation on included files and original sources.
+
+## Analysis
+Python and Matlab materials for data analysis and figure production. See **analysis** folder for additional documentation on included files.
+
 
 ### Additional Examples for Accessing and Analyzing OOI data
 
