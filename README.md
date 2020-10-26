@@ -25,23 +25,19 @@ Python and Matlab materials for data analysis and figure production. See **analy
 #### dataAccess
 This notebook walks through searching for instrumentation and datasets at the OOI Coastal Endurance sites.
 
-#### Future Code/Examples
-- Abbreviated script or version of this `dataAccess` notebook that will pull cabled array data from a new centralized server.
-- Create data analysis example using dask distributed for looking at larger datasets using the pangeo cluster.
-
 ## Copying/Running this repository
 #### Local
 - Make sure you have Git installed on your machine.  For downloads/instructions for Windows/Mac/Linux, check out the [Git website](https://git-scm.com/) and/or the great [tutorial video](https://www.youtube.com/watch?v=wyiiTHVEF8k&feature=youtu.be) by UW eScience.
 - In command line, navigate to where you would like the cloned directory, and run the following in your command line:
 ```bash
-git clone https://github.com/ooi-ecs/InterdisciplinaryEvaluation.git
+git clone https://github.com/ooi-ecs/ECS-Observatory-Collaboration.git
 ```
 
 #### Pangeo
 - Log into your [pangeo account](https://nasa.pangeo.io/hub/login)
 - On the Jupyter Lab **Launcher** tab or via File > New launch a **terminal**, and run the following in your command line:
 ```bash
-git clone https://github.com/ooi-ecs/InterdisciplinaryEvaluation.git
+git clone https://github.com/ooi-ecs/ECS-Observatory-Collaboration.git
 ```
 This should set up a permenant folder in your pangeo Jupyter Lab that will save and be accessible every time you start up a new worker,.
 
@@ -49,7 +45,7 @@ This should set up a permenant folder in your pangeo Jupyter Lab that will save 
 - Through your Google account, open Google Drive
 - On the top left side of your screen, select **New** > **More** > **Colaboratory** to launch a new Google Colaboratory notebook
 - Under **File**, select **Upload notebook** and click on **GitHub** at the top of the window
-- Insert `https://github.com/ooi-ecs/InterdisciplinaryEvaluation` into the search bar and press `Enter`
+- Insert `https://github.com/ooi-ecs/ECS-Observatory-Collaboration` into the search bar and press `Enter`
 - Click on **dataAcces.ipynb** to launch the notebook in a new window.  
 - To connect to a runtime, run any notebook cell.
 - To save any changes to the notebook, select **Copy to Drive** on the top left of the site or go to **File** > **Save a copy in Drive...**
