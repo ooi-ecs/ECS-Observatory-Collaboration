@@ -11,7 +11,7 @@ Python and Matlab materials for data analysis and figure production. See **analy
 
 `ProfilerCTD_RequestsAndAnalysis.ipynb` in the analysis directory contains the necessary Python code for data acquisition, analysis, and creation of **Figure 6** and **Figure 7**
 - **Figure 6**
-  - Datasets (*Available in a merged csv named `cP02PMCO_combined.csv`): 
+  - Datasets (*Available in a merged csv named `CP02PMCO_combined.csv`): 
     - CTD Data from the Central Offshore Profiler*: `CP02PMCO_ctd.csv`
     - Oxygen Data from the Central Offshore Profiler*: `CP02PMCO_DO.csv`
     - Flourometer Data from the Central Offshore Profiler*: `CP02PMCO_flor.csv`
@@ -20,7 +20,7 @@ Python and Matlab materials for data analysis and figure production. See **analy
       - `ProfilerCTD_RequestsAndAnalysis.ipynb`, subsection titled:*Figure 6 - Storm Profiles*
 - **Figure 7**
   - Datasets: 
-    - CTD Data from the 7 profiler sites: `CP03ISPM_ctd.csv`,`CP02PMUI_ctd.csv`,`CP02PMCI_ctd.csv`,`CP02PMCO_ctd.csv`,`CP01CNPM_ctd.csv`,`CP04OSPM_ctd.csv`,`CP02PMUO_ctd.csv`
+    - CTD Data from the 7 profiler sites: `CP03ISPM_ctd.csv`, `CP02PMUI_ctd.csv`, `CP02PMCI_ctd.csv`, `CP02PMCO_ctd.csv`, `CP01CNPM_ctd.csv`, `CP04OSPM_ctd.csv`, `CP02PMUO_ctd.csv`
    - Analysis:
       - `ProfilerCTD_RequestsAndAnalysis.ipynb`, subsection titled:*Figure 7 - Spatial Variability of 1st Storm*
 
