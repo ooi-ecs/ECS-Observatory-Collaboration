@@ -2,10 +2,9 @@
 %Choice below to read in from NETCDF file (pulled from OOI data portal) or
 %from .mat file created from OOI M2M matlab codes
 
-%created by Johna Rudzin, april 2020
+%created by Johna Rudzin (NRC/NRC, rudzinjohna@gmail.com, april 2020
 
-%%%Can use this info below to automate infile name creation
-%code isn't setup that way now. This is only used for output file name presently.
+%%%Metadata info below used to automate infile name creation
 %platformname
 pname='CP01CNSM'
 %node
@@ -18,6 +17,8 @@ method='recovered_host'
 stream='metbk_a_dcl_instrument'
 %pull dates
 dates='20181112-20181205';
+
+%%%%%%% Variables below can be read in one of two ways: from netcdf file (pulling data off OOI portal) or from .mat file (through OOI M2M.m matlab code)
 
 %read in netcdf file
 infile='deployment0010_CP01CNSM-SBD11-06-METBKA000-recovered_host-metbk_a_dcl_instrument_recovered_20181112T000012.513000-20181205T235959.678000.nc';
@@ -40,9 +41,9 @@ vcurr=ncread(infile,'northward_velocity');
 
 %%%%%% Read code using .mat output
 %if wanting to use .mat output from matlab OOI M2M .mat file, uncomment code
-%below and comment lines above from "infile" to "vcurr"
-%load('CP01CNSM_METBK1_2018-11-12_2018-12-06_RI.mat');
+%below and comment out lines above from "infile" to "vcurr" above
 
+%load('CP01CNSM_METBK1_2018-11-12_2018-12-06_RI.mat');
 %for i=1:length(outvariables);
 %varname{i}=outvariables(i).name;
 %data{i}=outvariables(i).data;
@@ -126,5 +127,5 @@ yticklabels({'0','','1','','2',''});
 
 
 
-print(f,'-dpng',['/users/rudzin/OOIdata/' pname '-' node '-' iclass '-' method  '-' stream '-' dates '-rev.png']);
-saveas(f,['/users/rudzin/OOIdata/' pname '-' node '-' iclass '-' method  '-' stream '-' dates '-rev'],'epsc');
+print(f,'-dpng',[pname '-' node '-' iclass '-' method  '-' stream '-' dates '.png']);
+saveas(f,[pname '-' node '-' iclass '-' method  '-' stream '-' dates ],'epsc');
