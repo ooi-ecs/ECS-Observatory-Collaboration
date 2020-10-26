@@ -11,7 +11,7 @@ Python and Matlab materials for data analysis and figure production. See **analy
 
 - **Figure 3**
   - Datasets: 
-    - Meteorological Data from the Central Offshore Profiler*: `deployment0010_CP01CNSM-SBD11-06-METBKA000-recovered_host-metbk_a_dcl_instrument_recovered_20181112T000012.513000-20181205T235959.678000.nc.` or `CP01CNSM_METBK1_2018-11-12_2018-12-06_RI.mat`  
+    - Meteorological Data from the Central Surface Mooring: `deployment0010_CP01CNSM-SBD11-06-METBKA000-recovered_host-metbk_a_dcl_instrument_recovered_20181112T000012.513000-20181205T235959.678000.nc.` or `CP01CNSM_METBK1_2018-11-12_2018-12-06_RI.mat`  
   - Analysis:
       - `plotOOImetbk.m`, can use either netcdf or mat file, follow instructions in code comments.
 
