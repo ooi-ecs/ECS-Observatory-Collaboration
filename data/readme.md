@@ -1,8 +1,16 @@
 # PioneerStorms2018 - Data
 
 ### *Mat Files*
-- MetBK package (Figure 3)
-- ADCP data from two mooring sites used for original exploratory analysis, not included in final manuscript.
+- The code "plotOOImetbk.m" was used to create Figure 3. The data was acquired from the site CP01CNSM using the following parameters: 
+
+```python
+node = 'SBD11'
+instrument= '06-METBKA000'
+method = 'recovered_host'
+stream = 'metbk_a_dcl_instrument'
+time='?beginDT=2018-11-12T00:00:00.000Z&endDT=2018-12-05T00:00:00.000Z'
+```
+
 
 ### *ProfilerCTD*
 
