@@ -10,31 +10,31 @@ Data included in the analyses and figures presented. See **data** folder for add
 Python and Matlab materials for data analysis and figure production. See **analysis** folder for additional documentation on included files.
 
 - **Figure 2**
-  - Datasets: 
-    - Met package Data from Pioneer Inshore Surface Mooring*: `CP03ISSMmetpackage.mat` 
+  - Datasets:
+    - Met package Data from Pioneer Inshore Surface Mooring*: `CP03ISSMmetpackage.mat`
     - can be requested via M2M: `M2M_Data_Figure2.m`
-  - Analysis: 
-    - `Figure2.m` 
+  - Analysis:
+    - `Figure2.m`
     - or `Figure2.mlx` (live editor)
 - **Figure 3**
-  - Datasets: 
+  - Datasets:
     - Meteorological Data from the Central Surface Mooring: `deployment0010_CP01CNSM-SBD11-06-METBKA000-recovered_host-metbk_a_dcl_instrument_recovered_20181112T000012.513000-20181205T235959.678000.nc.` or `CP01CNSM_METBK1_2018-11-12_2018-12-06_RI.mat`  
   - Analysis:
       - `plotOOImetbk.m`, can use either netcdf or mat file, follow instructions in code comments.
-
-`ProfilerCTD_RequestsAndAnalysis.ipynb` in the analysis directory contains the necessary Python code for data acquisition, analysis, and creation of **Figure 6** and **Figure 7**
 - **Figure 5**
-  - Datasets: 
-    - Met package Data from Pioneer Inshore Surface Mooring*: `CP03ISSMmetpackage.mat` 
+  - Datasets:
+    - Met package Data from Pioneer Inshore Surface Mooring*: `CP03ISSMmetpackage.mat`
     - CTD Profiler Data from Pioneer Central Offshore Profiler Mooring*: `CP02PMCOProfilerCTD.mat`
     - Oxygen Data from Pioneer Central Offshore Profiler Mooring*: `CP02PMCOProfilerDO.mat`
     - Flourometer and CDOM Data from Pioneer Central Offshore Profiler Mooring*: `CP02PMCOProfilerFLORT.mat`
     - can be requested via M2M: `M2M_Data_Figure5.m`
-  - Analysis: 
-    - `Figure5.m` 
+  - Analysis:
+    - `Figure5.m`
     - or `Figure5.mlx` (live editor)
+
+`ProfilerCTD_RequestsAndAnalysis.ipynb` in the analysis directory contains the necessary Python code for data acquisition, analysis, and creation of **Figure 6** and **Figure 7**
 - **Figure 6**
-  - Datasets (*Available in a merged csv named `CP02PMCO_combined.csv`): 
+  - Datasets (*Available in a merged csv named `CP02PMCO_combined.csv`):
     - CTD Data from the Central Offshore Profiler*: `CP02PMCO_ctd.csv`
     - Oxygen Data from the Central Offshore Profiler*: `CP02PMCO_DO.csv`
     - Flourometer Data from the Central Offshore Profiler*: `CP02PMCO_flor.csv`
@@ -42,7 +42,7 @@ Python and Matlab materials for data analysis and figure production. See **analy
    - Analysis:
       - `ProfilerCTD_RequestsAndAnalysis.ipynb`, subsection titled:*Figure 6 - Storm Profiles*
 - **Figure 7**
-  - Datasets: 
+  - Datasets:
     - CTD Data from the 7 profiler sites: `CP03ISPM_ctd.csv`, `CP02PMUI_ctd.csv`, `CP02PMCI_ctd.csv`, `CP02PMCO_ctd.csv`, `CP01CNPM_ctd.csv`, `CP04OSPM_ctd.csv`, `CP02PMUO_ctd.csv`
    - Analysis:
       - `ProfilerCTD_RequestsAndAnalysis.ipynb`, subsection titled:*Figure 7 - Spatial Variability of 1st Storm*

@@ -1,9 +1,9 @@
 # PioneerStorms2018 - Data
 
-### *Mat Files*
-The data from files 
-`deployment0010_CP01CNSM-SBD11-06-METBKA000-recovered_host-metbk_a_dcl_instrument_recovered_20181112T000012.513000-20181205T235959.678000.nc` 
-& `CP01CNSM_METBK1_2018-11-12_2018-12-06_RI.mat` were acquired from the site CP01CNSM using the following parameters: 
+### *Met_mat*
+The data from files
+`deployment0010_CP01CNSM-SBD11-06-METBKA000-recovered_host-metbk_a_dcl_instrument_recovered_20181112T000012.513000-20181205T235959.678000.nc`
+& `CP01CNSM_METBK1_2018-11-12_2018-12-06_RI.mat` were acquired from the site CP01CNSM using the following parameters:
 
 ```python
 node = 'SBD11'
@@ -14,7 +14,7 @@ time='?beginDT=2018-11-12T00:00:00.000Z&endDT=2018-12-05T00:00:00.000Z'
 ```
 The code "plotOOImetbk.m" utilizes either file (.nc or .mat) and was used to create Figure 3. Please see comments in code to determine how to use each file.
 
-### *ProfilerCTD*
+### *Profiler_csv*
 
 **'Site'\_ctd.csv**: Formatted .csv files of temperature and salinity from the 7 profiler mooring sites. Names are site codes as used by [OOI Data Portal](https://ooinet.oceanobservatories.org/):
 - CP01CNPM: Central Profiler Mooring
