@@ -49,7 +49,7 @@ Python and Matlab materials for data analysis and figure production. See **analy
 
 ### Additional Examples for Accessing and Analyzing OOI data
 
-#### dataAccess
+#### `dataAccess.ipynb`
 This notebook walks through searching for instrumentation and datasets at the OOI Coastal Endurance sites.
 
 ## Copying/Running this repository
@@ -59,14 +59,6 @@ This notebook walks through searching for instrumentation and datasets at the OO
 ```bash
 git clone https://github.com/ooi-ecs/ECS-Observatory-Collaboration.git
 ```
-
-#### Pangeo
-- Log into your [pangeo account](https://nasa.pangeo.io/hub/login)
-- On the Jupyter Lab **Launcher** tab or via File > New launch a **terminal**, and run the following in your command line:
-```bash
-git clone https://github.com/ooi-ecs/ECS-Observatory-Collaboration.git
-```
-This should set up a permenant folder in your pangeo Jupyter Lab that will save and be accessible every time you start up a new worker,.
 
 #### Google Colaboratory
 - Through your Google account, open Google Drive
