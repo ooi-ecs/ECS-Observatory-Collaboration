@@ -12,7 +12,7 @@ Python and Matlab materials for data analysis and figure production. See **analy
 - **Figure 2**
   - Datasets: 
     - Met package Data from Pioneer Inshore Surface Mooring*: `CP03ISSMmetpackage.mat` 
-    - can be requested via M2M*: `M2M_Data_Figure2.m`
+    - can be requested via M2M: `M2M_Data_Figure2.m`
   - Analysis: 
     - `Figure2.m` 
     - or `Figure2.mlx` (live editor)
@@ -29,7 +29,7 @@ Python and Matlab materials for data analysis and figure production. See **analy
     - CTD Profiler Data from Pioneer Central Offshore Profiler Mooring*: `CP02PMCOProfilerCTD.mat`
     - Oxygen Data from Pioneer Central Offshore Profiler Mooring*: `CP02PMCOProfilerDO.mat`
     - Flourometer and CDOM Data from Pioneer Central Offshore Profiler Mooring*: `CP02PMCOProfilerFLORT.mat`
-    - can be requested via M2M*: `M2M_Data_Figure5.m`
+    - can be requested via M2M: `M2M_Data_Figure5.m`
   - Analysis: 
     - `Figure5.m` 
     - or `Figure5.mlx` (live editor)
