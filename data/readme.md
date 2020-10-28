@@ -1,4 +1,4 @@
-# PioneerStorms2018 - Data
+# Data
 
 ### *Met_mat*
 The data from files
@@ -13,6 +13,14 @@ stream = 'metbk_a_dcl_instrument'
 time='?beginDT=2018-11-12T00:00:00.000Z&endDT=2018-12-05T00:00:00.000Z'
 ```
 The code "plotOOImetbk.m" utilizes either file (.nc or .mat) and was used to create Figure 3. Please see comments in code to determine how to use each file.
+
+`CP03ISSMmetpackage.mat`: Inshore surface bulk meteorology package data. Original requested .nc files (`deployment0007*`, `deployment0008*`,`deployment0009*`) are included and details on data requests can be found in `M2m_Data_Figure2.m` in the *analysis > matlab* directory.
+
+### *Profiler_mat*
+.mat files for profiler instrumentation from the Central Offshore Profiling Mooring. Original requested .nc files are included. Details on data requests can be found in `M2m_Data_Figure5.m` in the *analysis > matlab* directory.
+- `CPO2PMCOProfilerCTD.mat`: CTD
+- `CPO2PMCOProfilerDO.mat`: Dissolved oxygen
+- `CPO2PMCOProfilerFLORT.mat`: Fluorometer
 
 ### *Profiler_csv*
 
