@@ -25,7 +25,7 @@ Python and Matlab materials for data analysis and figure production. See **analy
   - Datasets:
     - Global satellite sea surface temperature data (in netcdf) is retrieved from NASA's Jet Propulsion Laboratories Group for High Resolution SST webpage. Please find specifics located in the Data Availability statement of Levine et al. (2020).  
   - Analysis:
-      - `plotGHRSST_ooi.jnl`
+      - `plotGHRSST_ooi.jnl` and corresponding functions to run code in ferret analysis folder
 - **Figure 5**
   - Datasets:
     - Met package Data from Pioneer Inshore Surface Mooring*: `CP03ISSMmetpackage.mat`
