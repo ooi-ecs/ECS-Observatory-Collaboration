@@ -16,16 +16,19 @@ Python and Matlab materials for data analysis and figure production. See **analy
   - Analysis:
     - `Figure2.m`
     - or `Figure2.mlx` (live editor)
+
 - **Figure 3**
   - Datasets:
     - Meteorological Data from the Central Surface Mooring: `deployment0010_CP01CNSM-SBD11-06-METBKA000-recovered_host-metbk_a_dcl_instrument_recovered_20181112T000012.513000-20181205T235959.678000.nc.` or `CP01CNSM_METBK1_2018-11-12_2018-12-06_RI.mat`  
   - Analysis:
       - `plotOOImetbk.m`, can use either netcdf or mat file, follow instructions in code comments.
+
 - **Figure 4**  
   - Datasets:
-    - Global satellite sea surface temperature data (in netcdf) is retrieved from NASA's Jet Propulsion Laboratories Group for High Resolution SST webpage. Please find specifics located in the Data Availability statement of Levine et al. (2020).  
+    - Global satellite sea surface temperature data (in netcdf) is retrieved from [NASA's Jet Propulsion Laboratories Group for High Resolution SST webpage](https://podaac.jpl.nasa.gov/dataset/MUR-JPL-L4-GLOB-v4.1). Please find specifics located in the Data Availability statement of Levine et al. (2020).  
   - Analysis:
       - `plotGHRSST_ooi.jnl` and corresponding functions to run code in ferret analysis folder
+
 - **Figure 5**
   - Datasets:
     - Met package Data from Pioneer Inshore Surface Mooring*: `CP03ISSMmetpackage.mat`
@@ -45,12 +48,12 @@ Python and Matlab materials for data analysis and figure production. See **analy
     - Flourometer Data from the Central Offshore Profiler*: `CP02PMCO_flor.csv`
     - WOA-18 Decadal average of Temperature, Salinity, and Oxygen: `woaDecadalAverage.csv`
    - Analysis:
-      - `ProfilerCTD_RequestsAndAnalysis.ipynb`, subsection titled:*Figure 6 - Storm Profiles*
+      - `ProfilerCTD_RequestsAndAnalysis.ipynb`, subsection titled: *Figure 6 - Storm Profiles*
 - **Figure 7**
   - Datasets:
     - CTD Data from the 7 profiler sites: `CP03ISPM_ctd.csv`, `CP02PMUI_ctd.csv`, `CP02PMCI_ctd.csv`, `CP02PMCO_ctd.csv`, `CP01CNPM_ctd.csv`, `CP04OSPM_ctd.csv`, `CP02PMUO_ctd.csv`
    - Analysis:
-      - `ProfilerCTD_RequestsAndAnalysis.ipynb`, subsection titled:*Figure 7 - Spatial Variability of 1st Storm*
+      - `ProfilerCTD_RequestsAndAnalysis.ipynb`, subsection titled: *Figure 7 - Spatial Variability of 1st Storm*
 
 ### Additional Examples for Accessing and Analyzing OOI data
 
@@ -59,7 +62,7 @@ This notebook walks through searching for instrumentation and datasets at the OO
 
 ## Copying/Running this repository
 #### Local
-- Make sure you have Git installed on your machine.  For downloads/instructions for Windows/Mac/Linux, check out the [Git website](https://git-scm.com/) and/or the great [tutorial video](https://www.youtube.com/watch?v=wyiiTHVEF8k&feature=youtu.be) by UW eScience.
+- Make sure you have Git installed on your machine. For downloads/instructions for Windows/Mac/Linux, check out the [Git website](https://git-scm.com/) and/or the great [tutorial video](https://www.youtube.com/watch?v=wyiiTHVEF8k&feature=youtu.be) by UW eScience.
 - In command line, navigate to where you would like the cloned directory, and run the following in your command line:
 ```bash
 git clone https://github.com/ooi-ecs/ECS-Observatory-Collaboration.git
