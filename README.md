@@ -21,6 +21,11 @@ Python and Matlab materials for data analysis and figure production. See **analy
     - Meteorological Data from the Central Surface Mooring: `deployment0010_CP01CNSM-SBD11-06-METBKA000-recovered_host-metbk_a_dcl_instrument_recovered_20181112T000012.513000-20181205T235959.678000.nc.` or `CP01CNSM_METBK1_2018-11-12_2018-12-06_RI.mat`  
   - Analysis:
       - `plotOOImetbk.m`, can use either netcdf or mat file, follow instructions in code comments.
+- **Figure 4**  
+  - Datasets:
+    - Global satellite sea surface temperature data (in netcdf) is retrieved from NASA's Jet Propulsion Laboratories Group for High Resolution SST webpage. Please find specifics located in the Data Availability statement of Levine et al. (2020).  
+  - Analysis:
+      - `plotGHRSST_ooi.jnl`
 - **Figure 5**
   - Datasets:
     - Met package Data from Pioneer Inshore Surface Mooring*: `CP03ISSMmetpackage.mat`
