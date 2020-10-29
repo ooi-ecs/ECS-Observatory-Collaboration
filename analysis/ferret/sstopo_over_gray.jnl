@@ -1,0 +1,24 @@
+\cancel mode verify
+! ftopo_over.jnl
+!
+! Description: Fill continental region using ETOPO5
+!
+! Usage:               $1      $2        $3       $4
+! yes?  go sstopo_over lon_ini lon_final lat_ini lat_final
+! Example: go sstopo_over 98w 81w 18n 32n 
+
+define symb xi     = $1
+define symb xf     = $2
+define symb yi     = $3
+define symb yf     = $4
+
+set data/save
+use "/usr/local/fer_dsets/data/smith_sandwell_topo_v8_2.nc"
+
+fill/over/nolabel/lev=(0 5000 100)/nokey/palette=gray/x=($xi):($xf)/y=($yi):($yf) rose
+!contour/over/nolabel/nokey/color=black/lev=(0,0,1,-3)/x=($xi):($xf)/y=($yi):($yf) rose
+
+
+!cancel data etopo20
+set data/restore
+set mode/last verify

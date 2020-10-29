@@ -1,0 +1,14 @@
+!
+!  control.axis.jnl
+!
+!                            $1 $2
+!  example: go control.axis -1 -1
+!
+ppl axlabp,0,0
+ppl yfor,0
+ppl axlabp,($1),($2)
+ppl axnsig,0,0
+ppl yfor,(i2,"^oN")
+ppl axlsze,.14,.14
+ppl axnmtc,1,1
+ppl axlint,2,2
